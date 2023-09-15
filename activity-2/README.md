@@ -6,9 +6,13 @@ Objectives
 
 What to do:
 - Create a `TodoController.java`
-- Wrap your `class TodoController` with `@RestController` and `@RequestMapping`
-- Create function 
+- Wrap your `class TodoController` with `@RestController` and `@RequestMapping("/todo")`
+- Create function `getTodo()`, wrap it with `@GetMapping`, return a `String` object `Create Controller`
+- Create function `createTodo(@RequestBody String title)`, wrap it with `@PostMapping`, return a `String` object based from the `title`
+- Create Function `updateTodo`, with a parameter of `@RequestBody String title` wrap it with `@PutMapping`, return a `String` object based from `title`
 
 Acceptance Criteria:
-- Put the newly created Spring Boot Project here
 - Can do `./gradlew bootRun`
+- GET `/todo` returns `Create Controller`
+- POST `/todo` returns based on the `title` parameter
+- PUT `/todo` returns based on the `title` parameter
