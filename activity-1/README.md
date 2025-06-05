@@ -7,8 +7,8 @@ What to do:
 - Go to https://start.spring.io/
 - Select the following configuration
     - Gradle - Groovy
-    - Java 17
-    - Spring Boot 3.1.3
+    - Java 21
+    - Spring Boot 3.5.0
     - Packaging - Jar
     - Dependencies:
         - Lombok
